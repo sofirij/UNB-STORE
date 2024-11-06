@@ -17,12 +17,16 @@ User Authentication: Handles registration, login, and logout functionalities usi
 Inventory Management: Allows sellers to add, edit, and delete items from their inventory. Items include details like category, condition, and description.
 Search: Provides search functionality where buyers can look for products by category and keyword, searching both item names and descriptions.
 Error Handling: Uses custom apology functions to handle various user errors gracefully, providing feedback when operations fail.
+
+
 2. helpers.py
 Contains utility functions that support the main application, including:
 
 login_required: A decorator to protect routes that should only be accessible to logged-in users.
 usd: A filter used to format numbers as USD currency in templates.
 apology: A function that renders custom error messages to users, maintaining a consistent error handling approach throughout the application.
+
+
 3. templates/
 This directory contains HTML files that define the structure and design of the application's user interface. Notable files include:
 
@@ -31,8 +35,11 @@ inventory.html: Allows sellers to manage their inventory, showing a list of thei
 register.html and login.html: Pages for user registration and login, respectively, ensuring secure access to the application.
 searchIndex.html: Displays search results when a buyer queries the inventory based on category and keywords.
 editableInventory.html: Facilitates editing inventory items with pre-filled data for the user’s convenience.
+
+
 4. static/
 This folder contains static assets like CSS for styling the application, JavaScript files for interactive elements, and images.
+
 
 5. schema.sql
 This SQL file is used to set up the database tables required for the application, including:
@@ -41,6 +48,8 @@ users: Stores user information, including usernames, hashed passwords, and their
 inventory: Contains the product listings with details such as category, name, condition, location, and seller information.
 categories: Lists predefined categories available for inventory items, ensuring consistency in classification.
 conditions: Contains possible conditions for items (e.g., new, used), providing standardized options during listing creation.
+
+
 Design Decisions
 1. Database Choice: SQLite
 SQLite was chosen for its simplicity and ease of integration with Flask, making it ideal for small to medium-scale applications. The database schema is designed to maintain relationships between users and their inventory items, with additional tables for categories and item conditions to standardize inputs.
