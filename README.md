@@ -85,17 +85,12 @@ Enhanced Search Filters: Implementing additional filters such as price range, it
 
 Installation
 Clone the repository:
-
-bash
-git clone https://github.com/sofiri/projects.git
+git clone https://github.com/sofiri/UNB-STORE.git
 cd project
 Set up a virtual environment (recommended):
 
 Install required packages:
-bash
 pip install -r requirements.txt
 
 Run the application:
-
-bash
 flask run
