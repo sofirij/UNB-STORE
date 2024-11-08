@@ -79,7 +79,7 @@ Conclusion
 The UNB Student Marketplace provides a dedicated and secure platform for UNB students to engage in buying and selling within their community. Through careful design and thoughtful implementation, this project aims to foster a safe and efficient trading environment tailored specifically for students.
 
 Future Enhancements
-Payment Integration: Adding secure payment gateways to facilitate transactions directly through the platform.
+More user friendly UI: Better UX/UI to improve user experience
 Review System: Allowing users to leave feedback on sellers and products, enhancing trust within the community.
 Enhanced Search Filters: Implementing additional filters such as price range, item condition, and location.
 
